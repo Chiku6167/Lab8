@@ -22,6 +22,8 @@ public class CustomListTest {
         return list;
     }
 
+
+
     /**
      * get the size of the list
      * increase the list by adding a new city
@@ -35,5 +37,6 @@ public class CustomListTest {
         list.addCity(new City("Estevan", "SK"));
         assertEquals(list.getCount(),listSize + 1); //checks if the size changes
     }
+
 
 }
